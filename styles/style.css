@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  width: 251.631px;
+  transform: rotate(-0.117deg);
+  color: #3a3a3a;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navber li {
+  display: inline;
+  margin: 0px 20px;
+  width: 1440px;
+  height: 3306px;
+  color: #3a3a3a;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-title p {
+  width: 582px;
+  height: 133px;
+  flex-shrink: 0;
+  color: #3a3a3a;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.header-title h6 {
+  color: #3a3a3a;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-image {
+  width: 440px;
+  height: 414px;
+  flex-shrink: 0;
+}
+.header-btn {
+  color: #fff;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+}
